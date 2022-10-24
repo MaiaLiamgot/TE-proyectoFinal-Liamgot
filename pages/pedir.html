@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="../css/estilos.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Libre+Bodoni:ital,wght@1,500&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <title>Mcdonalds-Realiza tu pedido</title>
+</head>
+<body>
+    <main class="grid">
+    <header>
+        <h1>La tienda de Ronald Mcdonald</h1>
+        <img src="../logo mcdonalds.png" alt="Logo mcdonalds" width="100px"><a href="index.html"></a>
+    </header>
+    <nav>
+        <ul><li><a href="../index.html">Inicio</a></li></ul>
+        <ul><li><a href="./menu.html">Menú</a></li></ul>
+        <ul><li><b><a href="pedir.html">Pedir</a></b></li></ul>
+        <ul><li><a href="./nosotros.html">Sobre Nosotros</a></li></ul>
+    </nav>
+    <table width="100%">
+        <tr>
+            <td width="50%">
+    <form action=""></form>
+    <input type="text" id="nombre" placeholder="Ingresa aca tu Nombre">
+    <input type="text" id="apellido" placeholder="Ingresa aca tu Apellido">
+         
+     <button type="button" onclick="guardarCliente()">Enviar</button>
+        </tr></td> 
+        <td width="50%">
+    <div id="texto">
+   <select id="hamburguesa">
+           <option>Mcfiesta</option>
+           <option>Mcnifica</option>
+           <option>Big Mac</option>
+           <option>Mcpollo</option>
+   </select>
+   <select id="bebida">
+           <option>Coca Cola</option>
+           <option>Sprite</option>
+           <option>Jugo de Naranja</option>
+           <option>Agua</option>
+   </select>
+      
+   <button type="button" onclick="Pedido()">Finalizar</button> 
+   </form>
+</td>
+   </div>
+   <tr><td width="100%">
+   <p id="parrafo"></p>
+   <p id="parrafo2"></p>
+   </td>
+    </tr>
+</table>
+</main>
+    <script src="../js/main.js"></script>
+</body>
+</html>
