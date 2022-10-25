@@ -26,7 +26,8 @@
 	}
 
 
-	localStorage.setItem("pedido", guardarCliente);
+
+	localStorage.setItem("nombre", JSON.stringify(guardarCliente));
 	
 
 	let hamburguesaStock = ["Mcfiesta", "Mcnifica", "Big Mac"];
