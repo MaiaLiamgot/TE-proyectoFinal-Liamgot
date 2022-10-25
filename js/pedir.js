@@ -21,12 +21,12 @@
 	const bebida = document.getElementById("bebida")
 
 	function Pedido() {
-	const parrafo2 = document.getElementById("parrafo2");
-	parrafo2.innerHTML = (`Tu pedido es ${hamburguesa.value} con ${bebida.value}`)
+	const parrafo = document.getElementById("parrafo");
+	parrafo.innerHTML = (`Tu pedido es ${hamburguesa.value} con ${bebida.value}`)
 	}
 
 
-	localStorage.setItem("pedido", Pedido);
+	localStorage.setItem("pedido", guardarCliente);
 	
 
 	let hamburguesaStock = ["Mcfiesta", "Mcnifica", "Big Mac"];

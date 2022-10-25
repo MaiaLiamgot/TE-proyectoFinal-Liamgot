@@ -7,9 +7,9 @@ console.log(nombre);
  */
 /* document.querySelector("h2").innerHTML = 'Bienvenid@ ${nombre}' */
 
-let nombre = document.getElementById("nombre")
+/* let nombre = document.getElementById("nombre")
 localStorage.setItem("name", "nombre");
-nombre = localStorage.getItem("nombre")
+nombre = localStorage.getItem("nombre") */
 
 
 
